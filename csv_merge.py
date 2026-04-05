@@ -93,5 +93,5 @@ def merge_csv_files(old_file, default_file, output_file=None):
 
 if __name__ == '__main__':
     # Run the merge
-    result = merge_csv_files('units_old.csv', 'units_default.csv', 'units')
+    result = merge_csv_files('units_old.csv', 'units_default.csv', 'units.csv')
     print(f"\nFinal merged file contains {len(result)} lines")
